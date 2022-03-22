@@ -421,7 +421,7 @@ input[type="text"] {
   color: #000;
   -webkit-text-fill-color: #000000 !important;
 }
-input[type="phone"] {
+input[type="tel"] {
   outline: none;
   border-color: rgb(255, 123, 0);
   color: #000;
