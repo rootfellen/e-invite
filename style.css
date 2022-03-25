@@ -1,0 +1,1032 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka One", cursive;
+  font-size: 16px;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* W3C */
+  background: linear-gradient(
+    top,
+    #ff3232 0%,
+    #fcf528 16%,
+    #28fc28 32%,
+    #28fcf8 50%,
+    #272ef9 66%,
+    #ff28fb 82%,
+    #ff3232 100%
+  );
+
+  /* Firefox */
+  background: -moz-linear-gradient(
+    top,
+    #ff3232 0%,
+    #fcf528 16%,
+    #28fc28 32%,
+    #28fcf8 50%,
+    #272ef9 66%,
+    #ff28fb 82%,
+    #ff3232 100%
+  );
+
+  /* Chrome,Safari4+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #ff3232),
+    color-stop(16%, #fcf528),
+    color-stop(32%, #28fc28),
+    color-stop(50%, #28fcf8),
+    color-stop(66%, #272ef9),
+    color-stop(82%, #ff28fb),
+    color-stop(100%, #ff3232)
+  );
+
+  /* Chrome10+,Safari5.1+ */
+  background: -webkit-linear-gradient(
+    top,
+    #f58282 0%,
+    #f1ee82 16%,
+    #adf5ad 32%,
+    #93f7f5 50%,
+    #9da0fa 66%,
+    #f5a8f4 82%,
+    #f79b9b 100%
+  );
+
+  background-size: 1000%;
+  -moz-background-size: 1000%;
+  -webkit-background-size: 1000%;
+
+  /* W3C */
+  animation-name: fun-time-awesome;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+
+  /* Firefox: */
+  -moz-animation-name: fun-time-awesome;
+  -moz-animation-duration: 40s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -moz-animation-play-state: running;
+
+  /* Chrome, Safari */
+  -webkit-animation-name: fun-time-awesome;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+
+/* W3C */
+@keyframes fun-time-awesome {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+
+/* Firefox */
+@-moz-keyframes fun-time-awesome {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+
+/* Chrome, Safari */
+@-webkit-keyframes fun-time-awesome {
+  0% {
+    background-position: left top;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+
+.invite__container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  background-color: rgb(234, 255, 255);
+  border: 1px solid rgb(133, 197, 197);
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 7px;
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.thx__container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(234, 255, 255);
+  border: 1px solid rgb(133, 197, 197);
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 7px;
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.msg {
+  font-size: 2rem;
+}
+
+.changes {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+.invite__wrapper {
+  z-index: 100;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  /* align-items: flex-end; */
+  position: relative;
+  background-color: rgb(248, 222, 222);
+  height: 90vh;
+  padding: 0rem 1rem;
+  margin: 2rem 1rem;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.26);
+  box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.26);
+  border: 1px dashed rgb(248, 214, 186);
+}
+
+.invite__info {
+  display: none;
+  margin-top: 5.5rem;
+}
+.invite__title {
+  font-family: "Pacifico", cursive;
+  position: absolute;
+  top: 7%;
+  right: 0;
+  color: teal;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  background-color: #fff8f8;
+  padding: 1rem;
+  border: 1px dashed #ffcacb;
+  border-radius: 7px;
+  -webkit-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.06);
+  box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.06);
+  background-color: #ca4246;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+.boy1 {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  max-width: 150px;
+}
+.boy2 {
+  position: absolute;
+  top: 22%;
+  right: 10%;
+  max-width: 120px;
+}
+
+.age {
+  font-size: 9rem;
+  background-color: #ca4246;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+.age {
+  margin-top: -2rem;
+  margin-bottom: -3rem;
+}
+.age__container {
+  margin-bottom: -2rem;
+}
+
+.melon {
+  position: absolute;
+  top: -7%;
+  left: -5%;
+  max-width: 150px;
+  transform: rotate(-24deg);
+}
+
+.pig {
+  position: absolute;
+  top: -5%;
+  right: -7%;
+  max-width: 150px;
+  transform: rotate(24deg);
+}
+.jj {
+  position: absolute;
+  top: 65%;
+  left: -14%;
+  max-width: 300px;
+  transform: rotate(-15deg);
+}
+
+.invite__info-title {
+  color: #ff6923;
+  /* margin-top: 3rem; */
+  font-size: 3rem;
+}
+
+.welcome {
+  display: block;
+  font-size: 2rem;
+  justify-items: center;
+}
+
+.invite__info-text,
+.welcome__text {
+  font-size: 1.5rem;
+}
+.invite__rsvp {
+  display: flex;
+  justify-content: space-around;
+}
+
+.invite__rsvp-person--1,
+.invite__rsvp-person--2 {
+  list-style: none;
+}
+
+.thx {
+  font-size: 10rem;
+}
+
+.confirmation-form {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fields {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.field {
+  margin-right: 1rem;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: rgb(255, 123, 0);
+  font-family: "Roboto", sans-serif;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.submit-btn {
+  cursor: pointer;
+
+  padding: 1rem 2rem;
+  font-family: "Roboto", sans-serif !important;
+  color: #8a9962;
+  font-weight: bold;
+  outline: none;
+  -webkit-text-fill-color: #000000 !important;
+}
+input[type="text"] {
+  outline: none;
+  border-color: rgb(255, 123, 0);
+  color: #000;
+  -webkit-text-fill-color: #000000 !important;
+}
+input[type="tel"] {
+  outline: none;
+  border-color: rgb(255, 123, 0);
+  color: #000;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+/* CLOUDS */
+@-webkit-keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  position: absolute;
+  z-index: -1;
+  top: 10%;
+  left: -25%;
+  -webkit-transform: scale(0.65);
+  -moz-transform: scale(0.65);
+  transform: scale(0.65);
+}
+
+.x2 {
+  position: absolute;
+  z-index: -1;
+  top: 15%;
+  right: -30%;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+  backface-visibility: hidden;
+  animation-name: shakeMe;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.x3 {
+  position: absolute;
+  z-index: 1;
+  top: 55%;
+  right: -40%;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+  backface-visibility: hidden;
+  animation-name: shakeMe;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.x4 {
+  position: absolute;
+  z-index: -1;
+  top: 35%;
+  left: -40%;
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+  backface-visibility: hidden;
+  animation-name: shakeMe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.x5 {
+  position: absolute;
+  z-index: -1;
+  top: 75%;
+  left: -30%;
+  -webkit-transform: scale(0.55);
+  -moz-transform: scale(0.55);
+  transform: scale(0.55);
+  backface-visibility: hidden;
+  animation-name: shakeMe;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.x6 {
+  position: absolute;
+  z-index: -1;
+  top: 85%;
+  right: -30%;
+  -webkit-transform: scale(0.55);
+  -moz-transform: scale(0.55);
+  transform: scale(0.55);
+}
+
+@keyframes shakeMe {
+  10%,
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+/* OBJECTS */
+
+.cloud {
+  z-index: -1;
+  position: absolute;
+  background: #fff;
+  background: -moz-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(5%, #fff),
+    color-stop(100%, #f1f1f1)
+  );
+  background: -webkit-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: -o-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: -ms-linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  background: linear-gradient(top, #fff 5%, #f1f1f1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+
+  -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+  height: 120px;
+  position: relative;
+  width: 350px;
+}
+
+.cloud:after,
+.cloud:before {
+  background: #fff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.cloud:after {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+
+  height: 100px;
+  left: 50px;
+  top: -50px;
+  width: 100px;
+}
+
+.cloud:before {
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+
+  width: 180px;
+  height: 180px;
+  right: 50px;
+  top: -90px;
+}
+
+.invite__img {
+  max-width: 67rem;
+}
+
+.invite__img-s {
+  display: none;
+}
+
+/* ===========  MEDIA QUERIES  ================== */
+
+@media screen and (max-width: 1400px) {
+  .invite__img {
+    max-width: 60rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .invite__wrapper {
+    max-width: 1000px;
+  }
+  .thx__container {
+    max-width: 1000px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
+  .invite__img {
+    max-width: 50rem;
+  }
+  .invite__container {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .thx__container {
+    max-width: 900px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
+  .invite__img {
+    max-width: 46rem;
+  }
+  .invite__wrapper {
+    max-width: 900px;
+  }
+  .cloud {
+    display: none;
+  }
+  .jj {
+    max-width: 150px;
+    top: 65%;
+    left: -7%;
+  }
+
+  .melon {
+    position: absolute;
+    top: -7%;
+    left: -5%;
+    max-width: 100px;
+    transform: rotate(-24deg);
+  }
+  .pig {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    max-width: 100px;
+    transform: rotate(24deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .invite__img {
+    max-width: 35rem;
+  }
+
+  .thx__container {
+    max-width: 700px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
+  .invite__wrapper {
+    max-width: 700px;
+  }
+  .confirmation-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  label {
+    padding-bottom: 0.5rem;
+  }
+
+  .fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .field {
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+  .thx__container {
+    max-width: 500px;
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
+  .invite__img {
+    display: none;
+  }
+
+  .invite__img-s {
+    display: block;
+    width: 280px;
+    height: 440px;
+  }
+
+  .invite__wrapper {
+    max-width: 500px;
+    justify-content: center;
+  }
+
+  .invite__info {
+    display: block;
+    margin-top: 0rem;
+    background-image: none;
+    -webkit-text-fill-color: none;
+  }
+
+  .age {
+    font-size: 5rem;
+  }
+  .invite__info-title {
+    font-size: 2rem;
+    background-image: none;
+  }
+
+  .welcome {
+    font-size: 1.5rem;
+  }
+  .welcome__text {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  label {
+    padding-bottom: 10px;
+  }
+
+  .invite__info-text {
+    font-size: 1rem;
+  }
+
+  .boy1 {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+  .thx__container {
+    max-width: 400px;
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+
+  .thx {
+    font-size: 4rem;
+  }
+  .invite__img {
+    display: none;
+  }
+  .invite__wrapper {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .invite__img {
+    display: none;
+  }
+  .invite__wrapper {
+    max-width: 360px;
+  }
+  .boy1 {
+    top: 75%;
+    max-width: 100px;
+  }
+  .invite__container {
+    justify-content: flex-start;
+    background-image: none;
+    -webkit-text-fill-color: black;
+    padding: 1rem 2rem;
+  }
+  .thx__container {
+    max-width: 360px;
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+
+  .thx {
+    font-size: 4rem;
+  }
+  .invite__info-title {
+    font-size: 1.5rem;
+  }
+  label {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+  .invite__img {
+    display: none;
+  }
+  .invite__wrapper {
+    max-width: 360px;
+  }
+  .boy1 {
+    top: 90%;
+    max-width: 100px;
+  }
+  .submit-btn {
+    padding: 0.5rem;
+  }
+  .invite__info-title {
+    margin-top: 0rem;
+  }
+  .thx__container {
+    max-width: 360px;
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+
+  .thx {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+  .invite__img {
+    display: none;
+  }
+
+  .invite__img-s {
+    display: block;
+    width: 230px;
+    height: 359px;
+  }
+
+  .thx__container {
+    max-width: 360px;
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+
+  .thx {
+    font-size: 2.5rem;
+  }
+  .msg {
+    font-size: 1.5rem;
+  }
+  .invite__wrapper {
+    max-width: 300px;
+  }
+  .boy1 {
+    top: 70%;
+    max-width: 100px;
+  }
+  .submit-btn {
+    padding: 0.5rem;
+  }
+  .invite__info-title {
+    margin-top: 0rem;
+  }
+  .invite__wrapper {
+    max-width: 300px;
+  }
+  .age {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .invite__info-title {
+    font-size: 1rem;
+  }
+
+  .invite__info-text {
+    font-size: 0.7rem;
+  }
+
+  .welcome {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .welcome__text {
+    margin-top: 2rem;
+    font-size: 0.7rem;
+  }
+  .invite__rsvp {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .thx {
+    font-size: 1.5rem;
+  }
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
+}
