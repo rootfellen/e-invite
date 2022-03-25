@@ -700,6 +700,13 @@ input[type="tel"] {
   .invite__wrapper {
     max-width: 1000px;
   }
+  .thx__container {
+    max-width: 1000px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
   .invite__img {
     max-width: 50rem;
   }
@@ -709,6 +716,13 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 992px) {
+  .thx__container {
+    max-width: 900px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
   .invite__img {
     max-width: 46rem;
   }
@@ -744,6 +758,14 @@ input[type="tel"] {
   .invite__img {
     max-width: 35rem;
   }
+
+  .thx__container {
+    max-width: 700px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
   .invite__wrapper {
     max-width: 700px;
   }
@@ -773,6 +795,13 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 576px) {
+  .thx__container {
+    max-width: 500px;
+  }
+
+  .thx {
+    font-size: 6rem;
+  }
   .invite__img {
     display: none;
   }
@@ -818,6 +847,13 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 500px) {
+  .thx__container {
+    max-width: 400px;
+  }
+
+  .thx {
+    font-size: 4rem;
+  }
   .invite__img {
     display: none;
   }
@@ -835,6 +871,13 @@ input[type="tel"] {
   }
   .boy1 {
     max-width: 100px;
+  }
+  .thx__container {
+    max-width: 360px;
+  }
+
+  .thx {
+    font-size: 4rem;
   }
 }
 
@@ -855,11 +898,29 @@ input[type="tel"] {
   .invite__info-title {
     margin-top: 0rem;
   }
+  .thx__container {
+    max-width: 360px;
+  }
+
+  .thx {
+    font-size: 3.5rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .invite__img {
     display: none;
+  }
+
+  .thx__container {
+    max-width: 360px;
+  }
+
+  .thx {
+    font-size: 2.5rem;
+  }
+  .msg {
+    font-size: 1.5rem;
   }
   .invite__wrapper {
     max-width: 360px;
@@ -899,5 +960,10 @@ input[type="tel"] {
   }
   .invite__rsvp {
     font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .thx {
+    font-size: 1.5rem;
   }
 }
