@@ -883,6 +883,11 @@ input[type="tel"] {
   .invite__img {
     display: none;
   }
+    .invite__img-s {
+    display: block;
+    width: 280px;
+    height: 440px;
+  }
   .invite__wrapper {
     max-width: 400px;
   }
@@ -891,6 +896,11 @@ input[type="tel"] {
 @media screen and (max-width: 435px) {
   .invite__img {
     display: none;
+  }
+    .invite__img-s {
+    display: block;
+    width: 280px;
+    height: 440px;
   }
   .invite__wrapper {
     max-width: 360px;
@@ -951,6 +961,11 @@ input[type="tel"] {
 
   .thx {
     font-size: 3.5rem;
+  }
+    .invite__img-s {
+    display: block;
+    width: 280px;
+    height: 440px;
   }
 }
 
