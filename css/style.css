@@ -813,6 +813,8 @@ input[type="tel"] {
   .invite__info {
     display: block;
     margin-top: 0rem;
+    background-image: none;
+    -webkit-text-fill-color: none;
   }
 
   .age {
@@ -820,6 +822,7 @@ input[type="tel"] {
   }
   .invite__info-title {
     font-size: 2rem;
+    background-image: none;
   }
 
   .welcome {
