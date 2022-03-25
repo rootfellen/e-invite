@@ -885,11 +885,14 @@ input[type="tel"] {
     max-width: 360px;
   }
   .boy1 {
+    top: 55%;
     max-width: 100px;
   }
   .invite__container {
+    justify-content: flex-start;
     background-image: none;
     -webkit-text-fill-color: black;
+    padding: 1rem 2rem;
   }
   .thx__container {
     max-width: 360px;
@@ -899,6 +902,12 @@ input[type="tel"] {
 
   .thx {
     font-size: 4rem;
+  }
+  .invite__info-title {
+    font-size: 1.5rem;
+  }
+  label {
+    padding: 0px;
   }
 }
 
