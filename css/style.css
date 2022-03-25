@@ -799,6 +799,9 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    justify-content: flex-start;
+  }
   .invite__container {
     background-image: none;
     -webkit-text-fill-color: black;
@@ -883,11 +886,6 @@ input[type="tel"] {
   .invite__img {
     display: none;
   }
-    .invite__img-s {
-    display: block;
-    width: 280px;
-    height: 440px;
-  }
   .invite__wrapper {
     max-width: 400px;
   }
@@ -897,13 +895,13 @@ input[type="tel"] {
   .invite__img {
     display: none;
   }
-    .invite__img-s {
-    display: block;
-    width: 280px;
-    height: 440px;
-  }
   .invite__wrapper {
     max-width: 360px;
+    margin-top: 0rem;
+    height: auto;
+  }
+  body {
+    justify-content: flex-start;
   }
   .boy1 {
     top: 75%;
@@ -942,6 +940,9 @@ input[type="tel"] {
   }
   .invite__wrapper {
     max-width: 360px;
+    margin: 0rem;
+    height: auto;
+    margin-top: 2rem;
   }
   .boy1 {
     top: 90%;
@@ -962,14 +963,12 @@ input[type="tel"] {
   .thx {
     font-size: 3.5rem;
   }
-    .invite__img-s {
-    display: block;
-    width: 280px;
-    height: 440px;
-  }
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    justify-content: flex-start;
+  }
   .invite__container {
     background-image: none;
     -webkit-text-fill-color: black;
@@ -998,6 +997,8 @@ input[type="tel"] {
   }
   .invite__wrapper {
     max-width: 300px;
+    height: auto;
+    margin-top: 2rem;
   }
   .boy1 {
     top: 70%;
@@ -1037,6 +1038,10 @@ input[type="tel"] {
   }
 }
 @media screen and (max-width: 360px) {
+  .invite__wrapper {
+    height: auto;
+    margin-top: 1rem;
+  }
   .thx {
     font-size: 1.5rem;
   }
