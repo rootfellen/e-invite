@@ -795,8 +795,14 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 576px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
   .thx__container {
     max-width: 500px;
+    background-image: none;
+    -webkit-text-fill-color: black;
   }
 
   .thx {
@@ -850,8 +856,14 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 500px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
   .thx__container {
     max-width: 400px;
+    background-image: none;
+    -webkit-text-fill-color: black;
   }
 
   .thx {
@@ -875,8 +887,14 @@ input[type="tel"] {
   .boy1 {
     max-width: 100px;
   }
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
   .thx__container {
     max-width: 360px;
+    background-image: none;
+    -webkit-text-fill-color: black;
   }
 
   .thx {
@@ -885,6 +903,10 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 412px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
   .invite__img {
     display: none;
   }
@@ -903,6 +925,8 @@ input[type="tel"] {
   }
   .thx__container {
     max-width: 360px;
+    background-image: none;
+    -webkit-text-fill-color: black;
   }
 
   .thx {
@@ -911,12 +935,18 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 375px) {
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
+  }
   .invite__img {
     display: none;
   }
 
   .thx__container {
     max-width: 360px;
+    background-image: none;
+    -webkit-text-fill-color: black;
   }
 
   .thx {
@@ -968,5 +998,9 @@ input[type="tel"] {
 @media screen and (max-width: 360px) {
   .thx {
     font-size: 1.5rem;
+  }
+  .invite__container {
+    background-image: none;
+    -webkit-text-fill-color: black;
   }
 }
