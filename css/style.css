@@ -688,6 +688,10 @@ input[type="tel"] {
   max-width: 67rem;
 }
 
+.invite__img-s {
+  display: none;
+}
+
 /* ===========  MEDIA QUERIES  ================== */
 
 @media screen and (max-width: 1400px) {
@@ -812,8 +816,15 @@ input[type="tel"] {
     display: none;
   }
 
+  .invite__img-s {
+    display: block;
+    width: 300px;
+    height: 500px;
+  }
+
   .invite__wrapper {
     max-width: 500px;
+    justify-content: center;
   }
 
   .invite__info {
@@ -952,6 +963,12 @@ input[type="tel"] {
     display: none;
   }
 
+  .invite__img-s {
+    display: block;
+    width: 230px;
+    height: 359px;
+  }
+
   .thx__container {
     max-width: 360px;
     background-image: none;
@@ -965,7 +982,7 @@ input[type="tel"] {
     font-size: 1.5rem;
   }
   .invite__wrapper {
-    max-width: 360px;
+    max-width: 300px;
   }
   .boy1 {
     top: 70%;
