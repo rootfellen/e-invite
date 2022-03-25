@@ -402,10 +402,10 @@ body {
 }
 .jj {
   position: absolute;
-  top: 45%;
-  left: -20%;
+  top: 65%;
+  left: -14%;
   max-width: 300px;
-  transform: rotate(-2deg);
+  transform: rotate(-15deg);
 }
 
 .invite__info-title {
@@ -521,7 +521,7 @@ input[type="tel"] {
   position: absolute;
   z-index: -1;
   top: 10%;
-  left: -50%;
+  left: -25%;
   -webkit-transform: scale(0.65);
   -moz-transform: scale(0.65);
   transform: scale(0.65);
@@ -531,7 +531,7 @@ input[type="tel"] {
   position: absolute;
   z-index: -1;
   top: 15%;
-  right: -70%;
+  right: -30%;
   -webkit-transform: scale(0.3);
   -moz-transform: scale(0.3);
   transform: scale(0.3);
@@ -561,7 +561,7 @@ input[type="tel"] {
   position: absolute;
   z-index: -1;
   top: 35%;
-  left: -70%;
+  left: -40%;
   -webkit-transform: scale(0.4);
   -moz-transform: scale(0.4);
   transform: scale(0.4);
@@ -576,7 +576,7 @@ input[type="tel"] {
   position: absolute;
   z-index: -1;
   top: 75%;
-  left: -50%;
+  left: -30%;
   -webkit-transform: scale(0.55);
   -moz-transform: scale(0.55);
   transform: scale(0.55);
@@ -589,8 +589,8 @@ input[type="tel"] {
 .x6 {
   position: absolute;
   z-index: -1;
-  top: 75%;
-  right: -90%;
+  top: 85%;
+  right: -30%;
   -webkit-transform: scale(0.55);
   -moz-transform: scale(0.55);
   transform: scale(0.55);
