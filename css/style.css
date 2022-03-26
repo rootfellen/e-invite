@@ -127,6 +127,10 @@ body {
   }
 }
 
+.invite__img-s {
+display: none
+}
+
 .invite__container {
   display: flex;
   margin: 0 auto;
