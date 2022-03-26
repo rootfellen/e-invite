@@ -490,10 +490,17 @@ input[type="tel"] {
 }
 
 #guests {
+  max-height: 1rem;
   outline: none;
   border-color: rgb(255, 123, 0);
   color: #000;
   -webkit-text-fill-color: #000000 !important;
+}
+
+.field-guests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* CLOUDS */
